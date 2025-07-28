@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (title.length < 5 || description.length < 5) {
       const errorMsg = document.createElement("div");
       errorMsg.className = "text-danger mt-2 task-error-msg";
-      errorMsg.innerText = "Tytuł i opis nie mogą być krótsze niż 5 znaków";
+      errorMsg.innerText = "Tytuł i opis nie mogą być nie krótsze niż 5 znaków";
       form.appendChild(errorMsg);
       return;
     }
