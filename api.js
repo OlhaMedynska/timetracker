@@ -1,8 +1,6 @@
 const apikey = "3bad72f1-875b-4209-b068-0eecd0cde85a";
 const apihost = "https://todo-api.coderslab.pl";
 
-
-// co to jst ten authorization i jak dziala i content type tez 
 const headers = {
   Authorization: apikey,
   "Content-Type": "application/json"
